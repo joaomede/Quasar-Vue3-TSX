@@ -3,7 +3,7 @@ import { defineComponent } from 'vue'
 /**
  * Component Test
  */
-export const ComponentTest = defineComponent({
+export const TextComponent = defineComponent({
   props: {
     message: {
       type: String
