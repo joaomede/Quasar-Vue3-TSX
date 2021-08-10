@@ -1,0 +1,51 @@
+{
+  "name": "quasar-vue3-tsx",
+  "version": "0.0.1",
+  "description": "",
+  "productName": "Quasar App",
+  "author": "add.your.email@here.com",
+  "private": true,
+  "scripts": {
+    "start": "quasar dev -m spa",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/app": "^3.0.4",
+    "@quasar/extras": "^1.10.10",
+    "@types/node": "16.4.13",
+    "@vue/babel-plugin-jsx": "^1.0.4",
+    "@vue/eslint-config-standard": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-eslint": "^10.1.0",
+    "dotenv": "^8.2.0",
+    "quasar": "2.0.3",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-vue": "^7.16.0"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "keywords": []
+}
