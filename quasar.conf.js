@@ -5,6 +5,9 @@ module.exports = configure(function (ctx) {
   return {
     // app boot file (/src/boot)
     boot: [],
+    sourceFiles: {
+      rootComponent: 'src/App.tsx'
+    },
 
     supportTS: {
       tsCheckerConfig: {
